@@ -1,5 +1,5 @@
 /*
-Theme Name: 500 Vinylised Child
+Theme Name: 500 Vinylised Child - Craig
 Description: Child theme for 500
 Author: Vinylised
 Template: fivehundred
@@ -35,11 +35,22 @@ nav#menu-header-mobile li {margin: 0 0 10px 10px;}
 .featured-info h3 {line-height: 22px;}
 .featured-button span {color: #fff}
 .featured-info .featured-button {background: #16a085; border: 3px solid #16a085;}
+.featured-image {max-width: 360px !important; height: 360px !important;}
 
 #ign-hDeck-right .ign-progress-bar {background: #66d6c5; }
 .ign-supportnow {background: #66d6c5; color: #fff;}
 .ign-product-proposed-end {display: none;}
 .ign-product-proposed-end #ign-widget-date {display: none;}
 .ign-progress-percentage {color:aqua; !important}
+
+#ign-hDeck-left .video {width: 320px !important; height: 320px !important; clear: both; margin: 0 auto;} 
+.ign-project-summary .ign-summary-container {overflow: visible !important;}
+.ign-summary-container {border: none !important;}
+.ign-summary-image {width: 288px !important; height: 288px !important;}
+.ign-project-summary .ign-summary-desc {height: auto;}
+
+@media screen and (max-width: 680px) and (min-width: 321px) {
+#ign-hDeck-wrapper {margin: 10px auto 80px auto !important;}
+}
 /*Category Pages */
 .category-header {width: 100%;}
