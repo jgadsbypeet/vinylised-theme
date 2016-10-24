@@ -1033,7 +1033,7 @@ function fh_my_account_link($items, $args) {
 if ( function_exists( 'add_image_size' ) ) { 
 	add_image_size( 'projectpage-large', 640, 9999 ); // For Project Pages with Unlimited Height allowed
 	add_image_size( 'single-thumb', 700, 105, true ); // For Single Posts (cropped)
-	add_image_size( 'fivehundred_featured', 624, 360, true); // For 500 Featured Project
+	add_image_size( 'fivehundred_featured', 360, 360, true); // For 500 Featured Project
 }
 
 add_filter( 'image_size_names_choose', 'custom_image_sizes_choose' );  
