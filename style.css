@@ -36,6 +36,9 @@ nav#menu-header-mobile li {margin: 0 0 10px 10px;}
 .featured-button span {color: #fff}
 .featured-info .featured-button {background: #16a085; border: 3px solid #16a085;}
 .featured-image {max-width: 360px !important; height: 360px !important;}
+@media screen and (min-width: 680px) {
+.featured-wrap {margin: 0 10% !important; }
+}
 
 #ign-hDeck-right .ign-progress-bar {background: #66d6c5; }
 .ign-supportnow {background: #66d6c5; color: #fff;}
