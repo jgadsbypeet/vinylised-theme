@@ -30,7 +30,7 @@ header#header {background-color:#363636; max-width: 100%; width: 100%; height: 6
 #menu-header-mobile {background-color: #363636 !important;}
 nav#menu-header-mobile li {margin: 0 0 10px 10px;}
 /* Product elements */
-.featured-info .ign-progress-wrapper {box-shadow: 0px 3px 3px #ddd; background: #fff; border: 1px solid #ddd; }
+.ign-project-summary .ign-progress-wrapper, .featured-info .ign-progress-wrapper {box-shadow: 0px 3px 3px #ddd !important; background: #fff !important; border: 1px solid #ddd !important; }
 .featured-info .ign-progress-bar {background-color: #612268; }
 .featured-info h3 {line-height: 22px;}
 .featured-button span {color: #fff}
@@ -48,6 +48,37 @@ nav#menu-header-mobile li {margin: 0 0 10px 10px;}
 .ign-summary-container {border: none !important;}
 .ign-summary-image {width: 288px !important; height: 288px !important;}
 .ign-project-summary .ign-summary-desc {height: auto;}
+.ign-project-summary .ign-progress-wrapper {width: 90% !important; margin: 0 auto !important;}
+
+#ign-hDeck-right .ign-progress-wrapper {box-shadow: 0px 3px 3px #ddd !important; background: #fff !important; border: 1px solid #ddd !important;}
+#ign-hDeck-right .ign-progress-percentage {color: #6C6C78;}
+.ign-project-summary .ign-progress-bar, #ign-hDeck-right .ign-progress-bar {background-color: #5F1B67 !important;}
+.ign-supportnow a {background: #34A285 !important; color: #ffffff !important; text-transform: uppercase !important; font-family: 'Roboto' !important; clear: both !important; margin: 0 auto !important; }
+.ign-supportnow {width: 100% !important;}
+#ign-product-levels .ign-level-title .level-price, .ign-project-summary .ign-summary-days strong {color: #5D1166 !important;}
+
+.ign-project-summary .title h3 {color: #6C6C78 !important; font-size: 24px !important; font-weight: 400 !important; margin: 0 0 10px 0 !important; line-height: 22px !important;}
+
+.project-mini-info {max-width: 100% !important;}
+.ign-project-summary {
+	width: 30%;
+	height: 360px;
+    	float: left;
+    	margin: 0 3% 50px 0;
+    	position: relative;
+    	border: 1px solid #DDDDDD;
+    	padding: 0px 0px 80px 0px;
+    	background: #FCFCFC;
+}
+.ign-project-summary .title {margin: 15px 0 0 0;}
+@media screen and (max-width: 680px) and (min-width: 321px) {
+.project-mini-info {text-align: center !important; margin: 0 auto !important; clear: both !important;}
+.ign-project-summary {
+	width: 90% !important;
+	text-align: center !important;
+}
+.ign-summary-image {clear: both !important; margin: 0 auto !important;}
+}
 
 @media screen and (max-width: 680px) and (min-width: 321px) {
 #ign-hDeck-wrapper {margin: 10px auto 80px auto !important;}
