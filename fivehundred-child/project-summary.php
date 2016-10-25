@@ -9,6 +9,12 @@ do_action('fh_project_summary_before');
 	<div class="ign-summary-container">
 		<div class="ign-summary-image" style="background-image: url(<?php echo $summary->image_url; ?>)"></div>
 	<div class="title"><h3><?php echo $summary->name; ?></h3></div>
+		<?php if (isset($summary->show_dates) && $summary->show_dates == true) { ?>
+		<div class="ign-summary-days">
+			<strong><?php echo $summary->days_left; ?></strong>
+			<?php echo ($summary->days_left < 0 ? '<span> '.__('Days Left', 'fivehundred').'</span>' : '<span> '.__('Days Left', 'fivehundred').'</span>');?>
+		</div>
+		<?php } ?>
         
          <div class="project-tag">
 			<?php
@@ -32,13 +38,7 @@ do_action('fh_project_summary_before');
 			<div class="ign-progress-bar" style="width: <?php echo $summary->percentage.'%'; ?>"></div>
 			<div class="ign-progress-percentage"><?php echo $summary->percentage.'%'; ?></div>
 		</div>
-		<?php if (isset($summary->show_dates) && $summary->show_dates == true) { ?>
-		<div class="ign-summary-days">
-			<strong><?php echo $summary->days_left; ?></strong>
-			<?php echo ($summary->days_left < 0 ? '<span> '.__('Days Left', 'fivehundred').'</span>' : '<span> '.__('Days Left', 'fivehundred').'</span>');?>
-		</div>
-		<?php } ?>
-		<div class="ign-summary-learnmore"><?php _e('Learn More', 'fivehundred'); ?></div>
+		<div class="ign-summary-learnmore"><?php _e('Buy now', 'fivehundred'); ?></div>
 	</div>
 	</a> 
 </div>

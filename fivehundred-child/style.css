@@ -49,6 +49,7 @@ nav#menu-header-mobile li {margin: 0 0 10px 10px;}
 .ign-summary-image {width: 288px !important; height: 288px !important;}
 .ign-project-summary .ign-summary-desc {height: auto;}
 .ign-project-summary .ign-progress-wrapper {width: 90% !important; margin: 0 auto !important;}
+.ign-project-summary .ign-summary-learnmore {display: block !important; position: relative !important; background: #34A285 !important; color: #ffffff !important; padding: 5px 45px; text-transform: uppercase; text-decoration: none; width: 59% !important; float: none !important; clear: both !important; margin: 10px auto !important; text-align: center;}
 
 #ign-hDeck-right .ign-progress-wrapper {box-shadow: 0px 3px 3px #ddd !important; background: #fff !important; border: 1px solid #ddd !important;}
 #ign-hDeck-right .ign-progress-percentage {color: #6C6C78;}
@@ -62,7 +63,7 @@ nav#menu-header-mobile li {margin: 0 0 10px 10px;}
 .project-mini-info {max-width: 100% !important;}
 .ign-project-summary {
 	width: 30%;
-	height: 360px;
+	height: 390px;
     	float: left;
     	margin: 0 3% 50px 0;
     	position: relative;
