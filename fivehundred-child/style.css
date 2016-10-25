@@ -81,8 +81,9 @@ nav#menu-header-mobile li {margin: 0 0 10px 10px;}
 .ign-project-summary {
 	width: 90% !important;
 	text-align: center !important;
+    padding: 0 0 30px 0 !important;
 }
-.ign-summary-image {clear: both !important; margin: 0 auto !important;}
+.ign-summary-image {clear: both !important; margin: 0 auto !important; margin-top: 7px !important;}
 }
 
 @media screen and (max-width: 680px) and (min-width: 321px) {
